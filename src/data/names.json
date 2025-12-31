@@ -1,0 +1,321 @@
+{
+    "surnames": [
+        {
+            "kanji": "佐藤",
+            "kana": "さとう",
+            "romaji": "Satou",
+            "meaning": "Assistant Wisteria",
+            "tags": [
+                "common"
+            ]
+        },
+        {
+            "kanji": "鈴木",
+            "kana": "すずき",
+            "romaji": "Suzuki",
+            "meaning": "Bell Tree",
+            "tags": [
+                "common"
+            ]
+        },
+        {
+            "kanji": "高橋",
+            "kana": "たかはし",
+            "romaji": "Takahashi",
+            "meaning": "High Bridge",
+            "tags": [
+                "common"
+            ]
+        },
+        {
+            "kanji": "田中",
+            "kana": "たなか",
+            "romaji": "Tanaka",
+            "meaning": "Rice Field Middle",
+            "tags": [
+                "common"
+            ]
+        },
+        {
+            "kanji": "伊藤",
+            "kana": "いとう",
+            "romaji": "Itou",
+            "meaning": "Japanese Wisteria",
+            "tags": [
+                "common"
+            ]
+        },
+        {
+            "kanji": "渡辺",
+            "kana": "わたなべ",
+            "romaji": "Watanabe",
+            "meaning": "Cross Area",
+            "tags": [
+                "common"
+            ]
+        },
+        {
+            "kanji": "山本",
+            "kana": "やまもと",
+            "romaji": "Yamamoto",
+            "meaning": "Mountain Base",
+            "tags": [
+                "common"
+            ]
+        },
+        {
+            "kanji": "中村",
+            "kana": "なかむら",
+            "romaji": "Nakamura",
+            "meaning": "Middle Village",
+            "tags": [
+                "common"
+            ]
+        },
+        {
+            "kanji": "小林",
+            "kana": "こばやし",
+            "romaji": "Kobayashi",
+            "meaning": "Small Forest",
+            "tags": [
+                "common"
+            ]
+        },
+        {
+            "kanji": "加藤",
+            "kana": "かとう",
+            "romaji": "Katou",
+            "meaning": "Increase Wisteria",
+            "tags": [
+                "common"
+            ]
+        },
+        {
+            "kanji": "月光",
+            "kana": "げっこう",
+            "romaji": "Gekkou",
+            "meaning": "Moonlight",
+            "tags": [
+                "anime",
+                "rare"
+            ]
+        },
+        {
+            "kanji": "夜神",
+            "kana": "やがみ",
+            "romaji": "Yagami",
+            "meaning": "Night God",
+            "tags": [
+                "anime",
+                "rare"
+            ]
+        },
+        {
+            "kanji": "黒崎",
+            "kana": "くろさき",
+            "romaji": "Kurosaki",
+            "meaning": "Black Cape",
+            "tags": [
+                "anime"
+            ]
+        },
+        {
+            "kanji": "緋村",
+            "kana": "ひむら",
+            "romaji": "Himura",
+            "meaning": "Scarlet Village",
+            "tags": [
+                "anime",
+                "traditional"
+            ]
+        }
+    ],
+    "givenNames": {
+        "male": [
+            {
+                "kanji": "翔",
+                "kana": "しょう",
+                "romaji": "Sho",
+                "meaning": "To Fly/Soar",
+                "tags": [
+                    "modern",
+                    "common"
+                ]
+            },
+            {
+                "kanji": "大翔",
+                "kana": "ひろと",
+                "romaji": "Hiroto",
+                "meaning": "Big Flight",
+                "tags": [
+                    "models",
+                    "common"
+                ]
+            },
+            {
+                "kanji": "蓮",
+                "kana": "れん",
+                "romaji": "Ren",
+                "meaning": "Lotus",
+                "tags": [
+                    "modern",
+                    "common"
+                ]
+            },
+            {
+                "kanji": "一郎",
+                "kana": "いちろう",
+                "romaji": "Ichiro",
+                "meaning": "First Son",
+                "tags": [
+                    "traditional"
+                ]
+            },
+            {
+                "kanji": "健",
+                "kana": "けん",
+                "romaji": "Ken",
+                "meaning": "Healthy/Strong",
+                "tags": [
+                    "traditional",
+                    "common"
+                ]
+            },
+            {
+                "kanji": "ナルト",
+                "kana": "なると",
+                "romaji": "Naruto",
+                "meaning": "Maelstrom",
+                "tags": [
+                    "anime"
+                ]
+            },
+            {
+                "kanji": "悟空",
+                "kana": "ごくう",
+                "romaji": "Goku",
+                "meaning": "Awareness of Emptiness",
+                "tags": [
+                    "anime"
+                ]
+            },
+            {
+                "kanji": "炭治郎",
+                "kana": "たんじろう",
+                "romaji": "Tanjiro",
+                "meaning": "High Charcoal Son",
+                "tags": [
+                    "anime"
+                ]
+            }
+        ],
+        "female": [
+            {
+                "kanji": "陽菜",
+                "kana": "ひな",
+                "romaji": "Hina",
+                "meaning": "Sun Vegetables/Greens",
+                "tags": [
+                    "modern",
+                    "common"
+                ]
+            },
+            {
+                "kanji": "凛",
+                "kana": "りん",
+                "romaji": "Rin",
+                "meaning": "Dignified/Cold",
+                "tags": [
+                    "modern",
+                    "common"
+                ]
+            },
+            {
+                "kanji": "結衣",
+                "kana": "ゆい",
+                "romaji": "Yui",
+                "meaning": "Tie/Bind Clothing",
+                "tags": [
+                    "common"
+                ]
+            },
+            {
+                "kanji": "さくら",
+                "kana": "さくら",
+                "romaji": "Sakura",
+                "meaning": "Cherry Blossom",
+                "tags": [
+                    "traditional",
+                    "common",
+                    "anime"
+                ]
+            },
+            {
+                "kanji": "花",
+                "kana": "はな",
+                "romaji": "Hana",
+                "meaning": "Flower",
+                "tags": [
+                    "traditional"
+                ]
+            },
+            {
+                "kanji": "ミカサ",
+                "kana": "みかさ",
+                "romaji": "Mikasa",
+                "meaning": "Three Bamboo Hats",
+                "tags": [
+                    "anime"
+                ]
+            },
+            {
+                "kanji": "うさぎ",
+                "kana": "うさぎ",
+                "romaji": "Usagi",
+                "meaning": "Rabbit",
+                "tags": [
+                    "anime"
+                ]
+            }
+        ],
+        "neutral": [
+            {
+                "kanji": "葵",
+                "kana": "あおい",
+                "romaji": "Aoi",
+                "meaning": "Hollyhock",
+                "tags": [
+                    "common"
+                ]
+            },
+            {
+                "kanji": "日向",
+                "kana": "ひなた",
+                "romaji": "Hinata",
+                "meaning": "Sunny Place",
+                "tags": [
+                    "common",
+                    "anime"
+                ]
+            },
+            {
+                "kanji": "優",
+                "kana": "ゆう",
+                "romaji": "Yu",
+                "meaning": "Gentleness/Superiority",
+                "tags": [
+                    "common"
+                ]
+            },
+            {
+                "kanji": "未来",
+                "kana": "みらい",
+                "romaji": "Mirai",
+                "meaning": "Future",
+                "tags": [
+                    "modern"
+                ]
+            }
+        ]
+    }
+}
