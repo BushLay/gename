@@ -13,7 +13,7 @@ const CategoryPage = ({ category, title, description, initialStyle = 'all' }) =>
     // User requested "Minimalist tool-style UI". Minimalist usually means clean start.
 
     const handleGenerate = ({ gender, style }) => {
-        const names = generateNames(gender, style, 1);
+        const names = generateNames(gender, style, 20);
         setGeneratedNames(names);
     };
 
@@ -86,10 +86,25 @@ const CategoryPage = ({ category, title, description, initialStyle = 'all' }) =>
         }
         .results-area {
           margin-top: var(--spacing-lg);
-          display: flex;
-          flex-direction: column;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
           gap: var(--spacing-md);
-          align-items: center;
+          width: 100%;
+        }
+        @media (max-width: 1024px) {
+          .results-area {
+            grid-template-columns: repeat(3, 1fr);
+          }
+        }
+        @media (max-width: 768px) {
+          .results-area {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+        @media (max-width: 480px) {
+          .results-area {
+            grid-template-columns: 1fr;
+          }
         }
         .content-section {
           max-width: 800px;
