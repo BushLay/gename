@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import '../styles/Layout.css';
+import logoImg from '../assets/logo.png';
 
 const Layout = ({ children }) => {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -13,7 +14,7 @@ const Layout = ({ children }) => {
             <header className="site-header">
                 <div className="container header-content">
                     <Link to="/" className="logo">
-                        <span className="logo-icon">名</span>
+                        <img src={logoImg} alt="Logo" />
                         <span className="logo-text">Gename.art</span>
                     </Link>
 
