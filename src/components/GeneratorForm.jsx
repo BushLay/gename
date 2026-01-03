@@ -1,13 +1,12 @@
 import React from 'react';
 import { Settings, Sparkles } from 'lucide-react';
 
-const GeneratorForm = ({ onGenerate, initialGender = 'neutral', initialStyle = 'all' }) => {
+const GeneratorForm = ({ onGenerate, initialGender = 'neutral' }) => {
     const [gender, setGender] = React.useState(initialGender);
-    const [style, setStyle] = React.useState(initialStyle);
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        onGenerate({ gender, style });
+        onGenerate({ gender });
     };
 
     return (
@@ -39,22 +38,7 @@ const GeneratorForm = ({ onGenerate, initialGender = 'neutral', initialStyle = '
                 </div>
             </div>
 
-            <div className="form-group">
-                <label className="form-label">Style / Theme</label>
-                <div className="select-wrapper">
-                    <select
-                        className="form-select"
-                        value={style}
-                        onChange={(e) => setStyle(e.target.value)}
-                    >
-                        <option value="all">Any Style</option>
-                        <option value="common">Common / Modern</option>
-                        <option value="traditional">Traditional</option>
-                        <option value="anime">Anime / Fantasy</option>
-                        <option value="rare">Rare / Unique</option>
-                    </select>
-                </div>
-            </div>
+
 
             <button type="submit" className="btn btn-primary submit-btn">
                 <Sparkles size={20} style={{ marginRight: '8px' }} />

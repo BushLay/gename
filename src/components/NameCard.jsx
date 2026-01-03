@@ -19,7 +19,7 @@ const NameCard = ({ name }) => {
         </div>
         <button
           className="copy-btn"
-          onClick={() => handleCopy(`${name.romaji} ${name.kanji}`, 'all')}
+          onClick={() => handleCopy(`${name.romaji} ${name.kanji} (${name.kana})`, 'all')}
           title="Copy Name"
         >
           {copiedField === 'all' ? <Check size={16} color="green" /> : <Copy size={16} />}
