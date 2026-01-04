@@ -12,6 +12,11 @@
     content="Japanese name generator, Japanese names, Kanji names, anime names, Japanese character names, name generator, Japan names" />
   <meta name="author" content="Gename.art" />
   <meta name="robots" content="index, follow" />
+  <!-- Preload name data for faster first generation -->
+  <link rel="preload" href="/data/surnames.json" as="fetch" crossorigin>
+  <link rel="preload" href="/data/male_names.json" as="fetch" crossorigin>
+  <link rel="preload" href="/data/female_names.json" as="fetch" crossorigin>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link

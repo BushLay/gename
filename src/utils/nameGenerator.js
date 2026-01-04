@@ -131,6 +131,18 @@ const filterNames = (nameList, query, matchMode) => {
  * @param {number} count - Number of names to generate (default 20)
  * @returns {Promise<Object>} Object containing generated names and filter info
  */
+/**
+ * Preload all name data into cache
+ * Call this on app initialization to warm up the cache
+ */
+export const preloadNameData = async () => {
+    await Promise.all([
+        loadSurnames(),
+        loadMaleNames(),
+        loadFemaleNames()
+    ]);
+};
+
 export const generateNamesWithFilter = async (options, count = 20) => {
     const {
         gender,
